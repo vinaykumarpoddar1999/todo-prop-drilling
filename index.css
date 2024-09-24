@@ -1,0 +1,125 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.activityInput{
+  padding: 10px;
+  width: 250px;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid royalblue;
+}
+.addBtn{
+  padding: 10px 40px;
+  background-color: royalblue;
+  color: white;
+  font-weight: 700;
+  margin: 20px;
+}
+.updateBtn{
+  padding: 10px 40px;
+  background-color: rgb(223, 64, 223);
+  color: white;
+  font-weight: 700;
+  margin: 20px;
+}
+.removeallBtn{
+  padding: 10px 40px;
+  background-color: rgb(236, 26, 54);
+  color: white;
+  font-weight: 700;
+  margin: 20px;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.task{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin:5px;
+ width: 350px;
+}
+.delete{
+  color: red;
+  font-size: 22px;
+}
+.edit{
+  color: blue;
+  font-size: 22px;
+}
+.action{
+  display: flex;
+  gap: 10px;
+}
+.linecut{
+  text-decoration: line-through;
+}
+.taskAll{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+body{
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
